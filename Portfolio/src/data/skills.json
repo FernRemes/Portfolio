@@ -1,0 +1,23 @@
+{
+  "skills": [
+    { "id": 1, "name": "Java", "icon": "/assets/icons/java.svg" },
+    { "id": 2, "name": "Python", "icon": "/assets/icons/python.svg" },
+    { "id": 3, "name": "C", "icon": "/assets/icons/c.svg" },
+    { "id": 4, "name": "C++", "icon": "/assets/icons/cpp.svg" },
+    { "id": 5, "name": "C#", "icon": "/assets/icons/c_sharp.svg" },
+    { "id": 6, "name": "Scala", "icon": "/assets/icons/scala.svg" },
+    { "id": 7, "name": "HTML", "icon": "/assets/icons/html5.svg" },
+    { "id": 8, "name": "CSS", "icon": "/assets/icons/css.svg" },
+    { "id": 9, "name": "JavaScript", "icon": "/assets/icons/javascript.svg" },
+    { "id": 10, "name": "TypeScript", "icon": "/assets/icons/typescript.svg" },
+    { "id": 11, "name": "ReactJS", "icon": "/assets/icons/reactjs.svg" },
+    { "id": 12, "name": "Svelte", "icon": "/assets/icons/svelte.svg" },
+    { "id": 13, "name": "SQL", "icon": "/assets/icons/sql.svg" },
+    { "id": 14, "name": "NoSQL", "icon": "/assets/icons/nosql.svg" },
+    { "id": 15, "name": "Wireshark", "icon": "/assets/icons/wireshark.svg" },
+    { "id": 16, "name": "IDA Pro", "icon": "/assets/icons/hex-rays.jpeg" },
+    { "id": 17, "name": "Ghidra", "icon": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Ghidra_logo.svg" },
+    { "id": 18, "name": "Git", "icon": "/assets/icons/git-bash.svg"},
+    { "id": 19, "name": "IT Support", "icon": "/assets/icons/cpu.svg"}
+  ]
+}

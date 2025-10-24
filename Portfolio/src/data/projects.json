@@ -1,0 +1,119 @@
+{
+    "projects" : [
+        {
+            "id": 1,
+            "title": "INFILTR8",
+            "role": "Leader",
+            "tags": ["Svelte", "HTML", "CSS", "JavaScript", "Neo4J", "Python", "Shell"],
+            "description": ["Industry-sponsored project with Department of Defense (🪖 DEVCOM) to build a 💻 Full-Stack Web Reconnaissance Analysis Tool. ",
+                            "Applied 🤖 machine learning to generate a prioritized list of potential vulnerabilites, filter by 🌐 IP addresses, and logged users and system actions ",
+                            "for auditability. The tool's user-friendly interface was streamlined for all 💽 Operating Systems."
+                            ],
+            "images": [
+                "./assets/images/projects/infiltr8/infiltr1.png",
+                "./assets/images/projects/infiltr8/infiltr2.png",
+                "./assets/images/projects/infiltr8/infiltr3.png",
+                "./assets/images/projects/infiltr8/infiltr4.png",
+                "./assets/images/projects/infiltr8/infiltr5.png",
+                "./assets/images/projects/infiltr8/infiltr6.png",
+                "./assets/images/projects/infiltr8/infiltr7.png",
+                "./assets/images/projects/infiltr8/infiltr8.png",
+                "./assets/images/projects/infiltr8/infiltr9.png",
+                "./assets/images/projects/infiltr8/infiltr10.png"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Fallen Empire",
+            "role": "Co-Leader",
+            "tags": ["Powershell-Empire", "VirtualBox", "Linux", "Windows7"],
+            "description": ["Simulated a 🖥️ Command & Control (C2) environment using PowerShell-Empire, an open-source post-exploitation agent used to \"assess the resilience of systems against cyber threats\", ",
+                            "running via  Windows PowerShell and used 🐧 Kali Linux to develop an attack 🛠️ script targeting vulnerable operating systems. ",
+                            "The project revealed attacker ⚠️ infection vectors and how Empire detects malicious implants."
+                            ],
+            "images": [
+                "./assets/images/projects/empire/empire5.png",
+                "./assets/images/projects/empire/empire1.png",
+                "./assets/images/projects/empire/empire3.png",
+                "./assets/images/projects/empire/empire4.png",
+                "./assets/images/projects/empire/empire2.png"
+
+            ]
+        
+        },
+        {
+            "id": 3,
+            "title": "Ticketminer",
+            "role": "Design Lead",
+            "tags": ["Java"],
+            "description": ["Enabled users to sign-up, log in, and \"purchase\" 🎟️ tickets for various events. Included an 🧾 invoice feature so user's can confirm their purchase went through. ", 
+                            "Administrators could create, update, or cancel events, as well as issue refunds. Seamless ⚙️ navigation and accessibility, 📂 file handling, 📊 UML-based dynamic structuring, 🧩 design patterns, and 💡 polymorphism."
+                            ],
+            "images": [
+                "./assets/images/projects/ticketminer/ticketminer1.png",
+                "./assets/images/projects/ticketminer/ticketminer2.png",
+                "./assets/images/projects/ticketminer/ticketminer3.png",
+                "./assets/images/projects/ticketminer/ticketminer4.png",
+                "./assets/images/projects/ticketminer/ticketminer5.png",
+                "./assets/images/projects/ticketminer/ticketminer6.png",
+                "./assets/images/projects/ticketminer/ticketminer7.png",
+                "./assets/images/projects/ticketminer/ticketminer8.png"
+
+            ]
+        
+        },
+        {
+            "id": 4,
+            "title": "NVID-DC",
+            "role": "Design Lead",
+            "tags": ["Python", "Docker", "XServer"],
+            "description": ["The Network Video & Image Displayer Using Docker Containers (NVID-DC) 🐳 is a secure, user-friendly, and rapidly deployable system for transmitting and displaying multimedia content. ",
+                            "The platform ensures 🔐 data security through AES and RSA encryption while supporting real-time ⏱️, adaptable multimedia delivery for diverse applications, including 🏢 corporate presentations, 🏙️ public digital signage , and 🏠 personal media sharing."
+                            ],
+            "images": [
+                "./assets/images/projects/nvid-dc/nvid1.png",
+                "./assets/images/projects/nvid-dc/nvid2.png",
+                "./assets/images/projects/nvid-dc/nvid3.png",
+                "./assets/images/projects/nvid-dc/nvid4.png",
+                "./assets/images/projects/nvid-dc/nvid5.png",
+                "./assets/images/projects/nvid-dc/nvid6.png",
+                "./assets/images/projects/nvid-dc/nvid7.png"
+            ]  
+        },
+        {
+            "id": 5,
+            "title": "Hangman Game",
+            "role": "Front-End Developer",
+            "tags": ["HTML", "CSS", "JavaScript"],
+            "description": ["A 🧍‍♂️ Hangman web application that enables players to guess a hidden word by suggesting letters. ", 
+                            "Each incorrect guess progressively draws a part of the hangman figure, and the game concludes when the player either successfully guesses the word 😄 or exhausts all available attempts 💀."
+                            ],
+            "images": [
+                "./assets/images/projects/hangman/hg1.png",
+                "./assets/images/projects/hangman/hg2.png",
+                "./assets/images/projects/hangman/hg3.png",
+                "./assets/images/projects/hangman/hg4.png"
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Rock Paper Scissors",
+            "role": "Front-End Developer",
+            "tags": ["HTML", "CSS", "JavaScript"],
+            "description": ["A single-page web application for 🪨 Rock, 📜 Paper, ✂️ Scissors where the user competes against a CPU. ",
+                            "Involves building an intuitive interactive interface and logic to handle game mechanics and outcomes. "
+                            ],
+            "images": [
+                "./assets/images/projects/rps/rps1.png",
+                "./assets/images/projects/rps/rps3.png",
+                "./assets/images/projects/rps/rps4.png",
+                "./assets/images/projects/rps/rps5.png",
+                "./assets/images/projects/rps/rps6.png",
+                "./assets/images/projects/rps/rps7.png"
+            ]
+        
+        }
+    
+    ]
+
+}

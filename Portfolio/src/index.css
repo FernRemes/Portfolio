@@ -1,0 +1,64 @@
+@import "tailwindcss";
+@layer theme, base, components, utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+
+}
+
+li {
+  margin: 5px 0px
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* custom scrollbar styles */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* custom theme colors */
+@theme {
+    
+    --color-light-blue: #00EFFF;
+    --color-light-green: #58FF58;
+    --color-light-red: #FF2222;
+    --color-light-purple: #9800FF;
+    
+    
+    --color-dark-blue: #00B2FF;
+    --color-dark-green: #42C642;
+    --color-dark-red: #991414;
+    --color-dark-purple: #7814FF;
+
+    --background-image-blue-gradient: linear-gradient(to bottom, var(--color-light-blue), var(--color-dark-blue));
+    --background-image-green-gradient: linear-gradient(to bottom, var(--color-light-green), var(--color-dark-green));
+    --background-image-red-gradient: linear-gradient(to bottom, var(--color-light-red), var(--color-dark-red));
+    --background-image-purple-gradient: linear-gradient(to bottom, var(--color-light-purple), var(--color-dark-purple));
+      
+    --bg: transparent;
+    --glass-bg: color-mix(in oklab, var(--bg) 80%, transparent);
+    --glass-border: color-mix(in oklab, var(--glass-bg) 70%, white);
+
+
+
+}
