@@ -74,8 +74,8 @@ function Projects() {
         <Nav color = "var(--color-dark-green)"/>
         <div className="lg:px-[150px] md:px-[50px] px-[20px]"> {/* horizontal padding for better viewing */}
                 {/* title text */}
-                <div className = "flex justify-center m-5">
-                    <span className='text-5xl font-semibold'> 
+                <div className = "flex flex-col items-center w-full flex-grow">
+                    <span className='text-4xl sm:text-5xl font-semibold mt-[2vh] mb-[3vh]'> 
                         Projects
                     </span>
                 </div>
@@ -170,7 +170,7 @@ function Projects() {
 
                 {/* Pagination Controls */}
                             
-                <div className = "flex gap-3 mt-5 mb-3 ">
+                <div className = "flex gap-3 mt-5 mb-5 z-20 relative">
                     <button
                         onClick={() => setCurrPage((p) => Math.max(p - 1, 1))} // Go to previous page by ensuring current page doesnt go below 1
                         disabled={currPage === 1}

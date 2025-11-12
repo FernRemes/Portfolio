@@ -48,9 +48,8 @@ function Contact() {
             
             <Nav color = "var(--color-dark-purple)"/>
             <div className="lg:px-[140px] md:px-[40px] px-[20px]"> {/* horizontal padding for better viewing */}
-                <div className = "flex justify-center m-5 ">
-                {/* title text */}
-                <span className='text-5xl font-semibold z-3' > 
+                <div className = "flex flex-col items-center w-full flex-grow">
+                    <span className='text-4xl sm:text-5xl font-semibold mt-[2vh] mb-[3vh]'>  
                 
                     Contact
                 
