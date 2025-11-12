@@ -7,6 +7,6 @@ export default defineConfig({
     react(),
     tailwindcss(),
     "@tailwindcss/postcss"
-  ]
+  ],
 })
 
