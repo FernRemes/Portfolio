@@ -46,12 +46,12 @@ function Skills() {
 
 
     return (
-        <div className = "no-scrollbar m-0 p-0  min-h-[95vh] w-full overflow-y-auto md:overflow-y-auto bg-red-gradient [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar]:h-2  [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:bg-gray-300">
+        <div className = "no-scrollbar m-0 p-0 w-full h-[100vh] overflow-y-auto bg-red-gradient [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar]:h-2  [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:bg-gray-300">
         <Nav color = "var(--color-dark-red)"/>
         <div className="lg:px-[150px] md:px-[50px] px-[20px]"> {/* horizontal padding for better viewing */}
                 {/* title text */}
                 <div className = "flex flex-col items-center w-full flex-grow">
-                    <span className='text-4xl sm:text-5xl font-semibold mt-[2vh] mb-[3vh]'> 
+                    <span className='text-4xl sm:text-5xl font-semibold mt-[2vh] mb-[3vh] lg:m-0'> 
                         Skills
                     </span>
                 </div>
@@ -59,7 +59,7 @@ function Skills() {
                
                 {/* skills grid list */}
                 
-                    <div className = "flex justify-center lg:justify-normal flex-wrap mt-4 md:mt-14 gap-2 md:gap-4 overflow-y-auto sm:h-[50vh] md:h-[55vh] lg:h-[60vh] pb-2  [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:bg-gray-300">
+                    <div className = "flex justify-center lg:justify-normal flex-wrap mt-4 md:mt-14 gap-2 md:gap-4 overflow-y-auto sm:h-[50vh] md:h-[55vh] lg:h-auto py-2 pl-3  [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:bg-gray-300">
                         {currSkills.map((skill) => (
                         
                         <div key={skill.id} className= " rounded-3xl border border-(--glass-border) p-2 sm:p-5 font-semibold shadow-md/20 inset-shadow-sm inset-shadow-current/20 backdrop-blur-sm bg-(--glass-bg) text-white w-[120px] h-[100px] sm:w-[180px] sm:h-[130px] [&:hover]:scale-110 transition duration-300">
@@ -98,7 +98,7 @@ function Skills() {
                     <button
                         onClick={() => setCurrPage((p) => Math.min(p+1, totalPages))} // Go to next page by ensuring current page doesnt exceed total pages
                         disabled={currPage === totalPages}
-                        className="px-2 py-2 bg-[#f2f2f2] rounded-4xl disabled:opacity-50 cursor-pointer disabled:cursor-auto"
+                        className="p-2 bg-[#f2f2f2] rounded-4xl disabled:opacity-50 cursor-pointer disabled:cursor-auto"
                     >
                        <MdKeyboardArrowRight/>
                     </button>
