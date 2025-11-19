@@ -18,7 +18,7 @@ function Navbar({color}) {
 
         // simple button on the top left 
         //! TODO: update for future custom user setting preferences 
-        <div className="relative m-5 mb-[50px] ">
+        <div className="relative p-5 mb-[50px] ">
             <button 
                 className= " flex justify-center items-center w-auto h-full p-3 text-white text-[30px] border-2 rounded-md border-black cursor-pointer hover:scale-110"
                 style = {{backgroundColor: color}}
