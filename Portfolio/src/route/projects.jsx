@@ -70,7 +70,7 @@ function Projects() {
  
 
     return (
-        <div className = "no-scrollbar m-0 p-0  md:h-[95vh] h-[95vh] w-full overflow-y-auto bg-green-gradient">
+        <div className = "no-scrollbar m-0 p-0  min-h-screen overflow-y-auto bg-green-gradient">
         <Nav color = "var(--color-dark-green)"/>
         <div className="lg:px-[150px] md:px-[50px] px-[20px]"> {/* horizontal padding for better viewing */}
                 {/* title text */}

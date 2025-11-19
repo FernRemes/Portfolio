@@ -10,7 +10,7 @@ import ContactImg from '../../public/assets/images/contact.png'
 function Home() {
     return (
 
-          <div className = "grid lg:grid-cols-4  m-0 p-0 h-[95vh] w-full overflow-hidden ">
+          <div className = "grid lg:grid-cols-4  m-0 p-0 min-h-[95vh] w-full overflow-hidden ">
             {/* About Link */}
             <Link to = '/about'>
             <div className = " relative bg-blue-gradient border-[var(--color-dark-blue)] border-5 border-b-0 group h-full overflow-hidden">

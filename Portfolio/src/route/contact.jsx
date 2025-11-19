@@ -42,7 +42,7 @@ function Contact() {
     };  
     
     return (
-        <div className = "relative no-scrollbar m-0 p-0  md:h-[95vh] h-[95vh] w-full overflow-y-auto  bg-purple-gradient [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:bg-gray-300">
+        <div className = "relative no-scrollbar m-0 p-0   min-h-screen overflow-y-auto  bg-purple-gradient [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:bg-gray-300">
             {/* A 3D globe would be too much for smaller devices to load, thus, change globe to a png */}
             <div className={`absolute  inset-0 bg-cover bg-center lg:hidden opacity-90`} style = {{ backgroundImage: `url(${globeGif})`}}></div>
             

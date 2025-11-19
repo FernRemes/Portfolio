@@ -46,7 +46,7 @@ function Skills() {
 
 
     return (
-        <div className = "no-scrollbar m-0 p-0 w-full h-[100vh] overflow-y-auto bg-red-gradient [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar]:h-2  [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:bg-gray-300">
+        <div className = "no-scrollbar m-0 p-0 min-h-screen overflow-y-auto bg-red-gradient [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar]:h-2  [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:bg-gray-300">
         <Nav color = "var(--color-dark-red)"/>
         <div className="lg:px-[150px] md:px-[50px] px-[20px]"> {/* horizontal padding for better viewing */}
                 {/* title text */}
