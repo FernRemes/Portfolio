@@ -31,12 +31,13 @@ function About() {
 
     return (
         
-        <div className = "no-scrollbar m-0 p-0 min-h-screen overflow-y-auto bg-blue-gradient  [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:bg-gray-300" >
+        <div className = "w-full min-h-screen bg-blue-gradient ">
+            
             <Nav color = "var(--color-dark-blue)"/>
             
             <div className="lg:px-[150px] md:px-[50px] px-[20px]"> {/* horizontal padding for better viewing */}
                 <div className = "flex flex-col items-center w-full flex-grow">
-                    <span className='text-4xl sm:text-5xl font-semibold mt-[2vh] mb-[3vh]'> 
+                    <span className='text-6xl sm:text-5xl font-semibold mt-[2vh] mb-[3vh]'> 
                     
                         About
                     
@@ -57,7 +58,7 @@ function About() {
                 </div>
 
                 {/* About Me paragraphs */}
-                <div className = " text-[16px] sm:text-[18px] md:text-[20px] pb-5"
+                <div className = " text-[26px] sm:text-[24px] md:text-[20px] pb-5"
                         // text contain slight text-shadow to be less intense with the background
                         style={{
                             textShadow: `1px 1px 2px #fff, 1px 1px 4px #fff`,

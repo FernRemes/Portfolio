@@ -51,7 +51,7 @@ function Skills() {
         <div className="lg:px-[150px] md:px-[50px] px-[20px]"> {/* horizontal padding for better viewing */}
                 {/* title text */}
                 <div className = "flex flex-col items-center w-full flex-grow">
-                    <span className='text-4xl sm:text-5xl font-semibold mt-[2vh] mb-[3vh] lg:m-0'> 
+                    <span className='text-6xl sm:text-5xl font-semibold mt-[2vh] mb-[3vh] lg:m-0'> 
                         Skills
                     </span>
                 </div>
@@ -62,11 +62,11 @@ function Skills() {
                     <div className = "flex justify-center lg:justify-normal flex-wrap mt-4 md:mt-14 gap-2 md:gap-4 overflow-y-auto sm:h-[50vh] md:h-[55vh] lg:h-auto py-2 pl-3  [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:bg-gray-300">
                         {currSkills.map((skill) => (
                         
-                        <div key={skill.id} className= " rounded-3xl border border-(--glass-border) p-2 sm:p-5 font-semibold shadow-md/20 inset-shadow-sm inset-shadow-current/20 backdrop-blur-sm bg-(--glass-bg) text-white w-[120px] h-[100px] sm:w-[180px] sm:h-[130px] [&:hover]:scale-110 transition duration-300">
+                        <div key={skill.id} className= " rounded-3xl border border-(--glass-border) p-4 sm:p-5 font-semibold shadow-md/20 inset-shadow-sm inset-shadow-current/20 backdrop-blur-sm bg-(--glass-bg) text-white w-[180px] h-[150px] sm:w-[180px] sm:h-[130px] [&:hover]:scale-110 transition duration-300">
                             <div className = "flex justify-center items-center ">
-                                <img src={skill.icon} alt={skill.name} className = "object-contain w-[60px] h-[60px] mb-2 inset-shadow-sm inset-shadow-black/20 backdrop-blur-md "/>
+                                <img src={skill.icon} alt={skill.name} className = "object-contain w-[80px] h-[80px] md:w-[60px] md:h-[60px] mb-2 inset-shadow-sm inset-shadow-black/20 backdrop-blur-md "/>
                             </div>
-                            <span className = "flex justify-center items-center w-auto text-[12px] sm:text-[16px]">
+                            <span className = "flex justify-center items-center w-auto text-[18px] sm:text-[16px]">
                                 {skill.name}
                             </span>
                         </div>

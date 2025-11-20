@@ -49,11 +49,11 @@ function Contact() {
             <Nav color = "var(--color-dark-purple)"/>
             <div className="lg:px-[140px] md:px-[40px] px-[20px]"> {/* horizontal padding for better viewing */}
                 <div className = "flex flex-col items-center w-full flex-grow">
-                    <span className='text-4xl sm:text-5xl font-semibold mt-[2vh] mb-[3vh] lg:m-0'>  
+                    <span className='text-6xl sm:text-5xl font-semibold mt-[2vh] mb-[3vh] lg:m-0 z-10'>  
                 
                     Contact
                 
-                </span>
+                    </span>
             
             
                 </div>
@@ -74,31 +74,31 @@ function Contact() {
 
                                 {/* Header and Subheader*/}
                                 <div className="text-center">
-                                    <span className="text-white text-xl sm:text-2xl lg:text-3xl font-semibold block">
+                                    <span className="text-white text-4xl sm:text-3xl lg:text-4xl font-semibold block">
                                     These are my socials
                                     </span>
-                                    <span className="text-white text-xs sm:text-sm lg:text-xs block md:mx-5 md:my-2">
+                                    <span className="text-white text-md sm:text-lg lg:text-sm block md:mx-5 md:my-2">
                                     If you have any questions, comments, or concerns do not be afraid to contact me
                                     </span>
                                 </div>
 
                                     {/* Contact Info */}
                                     <div className="bg-white my-2 sm:my-4 md:h-[90%] h-[80%] w-full rounded-2xl justify-center items-center">
-                                        <span className = "font-semibold md:text-xl text-md flex pl-4">Current Residence</span>
-                                        <span className = "font-semibold md:text-lg text-sm flex justify-center">El Paso TX. United Sates</span>
+                                        <span className = "font-semibold md:text-xl text-lg flex pl-4">Current Residence</span>
+                                        <span className = "font-semibold md:text-xl text-lg flex justify-center">El Paso TX. United Sates</span>
                                     
                                     </div>
                                     <div className="bg-white my-2 sm:my-4 md:h-[90%] h-[80%] w-full rounded-2xl">
-                                        <span className = "font-semibold md:text-xl text-md flex pl-4 stroke-red">Phone Number</span>
-                                        <span className = "font-semibold md:text-lg text-sm flex justify-center">(915) 228-8292</span>
+                                        <span className = "font-semibold md:text-xl text-lg flex pl-4 stroke-red">Phone Number</span>
+                                        <span className = "font-semibold md:text-xl text-lg flex justify-center">(915) 228-8292</span>
 
                                     </div>
                                     <div className="bg-white my-2 sm:my-4 md:h-[90%] h-[80%] w-full rounded-2xl">
-                                        <span className = "font-semibold md:text-xl text-md flex pl-4">Email</span>
-                                        <span className = "font-semibold md:text-lg text-sm  flex justify-center">nandoremes@gmail.com</span>
+                                        <span className = "font-semibold md:text-xl text-lg flex pl-4">Email</span>
+                                        <span className = "font-semibold md:text-xl text-lg  flex justify-center">nandoremes@gmail.com</span>
                                     </div>
                                 {/* Resume preview and download button */}
-                                <button className="group flex items-center justify-center gap-2 bg-light-purple rounded-2xl shadow-md py-2 px-6  sm:w-[220px] md:w-[210px] lg:w-[220px] hover:scale-125 cursor-pointer" 
+                                <button className="group flex items-center justify-center gap-2 bg-light-purple rounded-2xl shadow-md py-2 px-6 mt-4  sm:w-[220px] md:w-[230px] lg:w-[220px] hover:scale-125 cursor-pointer" 
                                         onClick={() => {
                                             if (window.innerWidth < 1024) {
                                                 const link = document.createElement('a');
@@ -110,7 +110,7 @@ function Contact() {
                                             else setShowResume(true);
                                         }
                                         }>
-                                    <span className = "text-white text-[12px] sm:text-sm md:text-md block">Download Resume</span>
+                                    <span className = "text-white text-[16px] sm:text-md md:text-sm block">Download Resume</span>
                                     <div className=" text-dark-green text-center text-2xl md:text-xl  ">
                                     <MdDownload />
                                     </div>

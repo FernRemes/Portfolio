@@ -70,12 +70,12 @@ function Projects() {
  
 
     return (
-        <div className = "no-scrollbar m-0 p-0  min-h-screen overflow-y-auto bg-green-gradient">
+        <div className = "m-0 p-0  w-full min-h-screen bg-green-gradient ">
         <Nav color = "var(--color-dark-green)"/>
         <div className="lg:px-[150px] md:px-[50px] px-[20px]"> {/* horizontal padding for better viewing */}
                 {/* title text */}
                 <div className = "flex flex-col items-center w-full flex-grow">
-                    <span className='text-4xl sm:text-5xl font-semibold mt-[2vh] mb-[3vh] lg:m-0'> 
+                    <span className='text-6xl sm:text-5xl font-semibold mt-[2vh] mb-[3vh] lg:m-0'> 
                         Projects
                     </span>
                 </div>
@@ -112,7 +112,7 @@ function Projects() {
                                     </button>
                                     {/* Project tags */}
                                     <div 
-                                        className = "flex flex-nowrap items-center whitespace-nowrap mx-3 mt-2 px-1 py-2 text-black text-[12px] sm:text-sm overflow-x-auto gap-2 overflow-y-hidden  [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar]:h-2 [&::-webkit-scrollbar-track]:rounded-full [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-thumb]:bg-gray-300">
+                                        className = "flex flex-nowrap items-center whitespace-nowrap mx-3 mt-2 px-1 py-2 text-black text-[18px] sm:text-sm overflow-x-auto gap-2 overflow-y-hidden  [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar]:h-2 [&::-webkit-scrollbar-track]:rounded-full [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-thumb]:bg-gray-300">
                                             {active?.tags.map((tag) => (
                                                 <div key={active.id} className=" rounded-3xl border border-(--glass-border) w-auto px-2 py-0 mb-1 sm:px-3 sm:py-1 sm:mb-2 font-semibold shadow-md/20 inset-shadow-sm inset-shadow-current/20 backdrop-blur-sm bg-(--glass-bg)">
                                                     {tag}
@@ -128,10 +128,10 @@ function Projects() {
                                     >
                                         <div className="px-5 pb-5 pt-1 flex flex-col gap-1">
                                             <div className = "flex items-center gap-2 ">
-                                                <h2 className="text-[#111111] text-md sm:text-2xl font-semibold">{active?.title} </h2>
-                                                <h4 className = "font-medium text-sm sm:text-md md:text-lg">{active?.role}</h4>
+                                                <h2 className="text-[#111111] text-2xl font-semibold">{active?.title} </h2>
+                                                <h4 className = "font-medium text-xl md:text-lg">{active?.role}</h4>
                                             </div>
-                                            <span className="text-[#111111] font-medium text-sm sm:text-md md:text-base">
+                                            <span className="text-[#111111] font-medium text-lg sm:text-md md:text-base">
                                                 {active?.description}
                                             </span>
                                         
@@ -147,7 +147,7 @@ function Projects() {
                 
                 {/* Projects Grid */}
                 <div className="w-full mb-2">
-                    <div className="flex justify-center flex-wrap md:px-4 mt-4 md:mt-10 gap-5 md:gap-6 lg:gap-10 overflow-y-auto lg:overflow-hidden pb-10 z-5 ">
+                    <div className="no-scrollbar flex justify-center flex-wrap md:px-4 mt-4 md:mt-10 gap-5 md:gap-6 lg:gap-10 overflow-y-auto lg:overflow-hidden pb-10 z-5 ">
                         {currProjects.map((project) => (
                         <motion.div
                     
